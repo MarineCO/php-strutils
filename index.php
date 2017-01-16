@@ -8,6 +8,21 @@
 			$this->_str = $newStr;
 		}
 		
+		public function bold() {
+
+		}
+
+		public function italic() {
+
+		}
+
+		public function underline() {
+
+		}
+
+		public function capitalize() {
+
+		}
 	}
 
 ?>
