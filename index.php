@@ -14,7 +14,8 @@
 		}
 
 		public function italic() {
-			
+			$italic = '<em>' .$this->str. '</em>';
+			return $italic;
 		}
 
 		public function underline() {
@@ -42,6 +43,7 @@
 <body>
 
 	<div>Le mot est en gras : <?= $myObj->bold(); ?></div>
+	<div>Le mot est en italic : <?= $myObj->italic(); ?></div>
 
 </body>
 </html>
