@@ -23,6 +23,10 @@
 		public function capitalize() {
 
 		}
+
+		function uglify() {
+			
+		}
 	}
 
 ?>
