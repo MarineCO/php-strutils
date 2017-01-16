@@ -24,7 +24,8 @@
 		}
 
 		public function capitalize() {
-			
+			$underline = ucfirst($this->str);
+			return $underline;
 		}
 
 		public function uglify() {
@@ -46,6 +47,7 @@
 	<div>Le mot est en gras : <?= $myObj->bold(); ?></div>
 	<div>Le mot est en italic : <?= $myObj->italic(); ?></div>
 	<div>Le mot est souligné : <?= $myObj->underline(); ?></div>
+	<div>Le première lettre du mot est en capitale : <?= $myObj->capitalize(); ?></div>
 
 </body>
 </html>
