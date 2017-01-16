@@ -19,7 +19,8 @@
 		}
 
 		public function underline() {
-			
+			$underline = '<u>'.$this->str. '</u>';
+			return $underline;
 		}
 
 		public function capitalize() {
@@ -44,6 +45,7 @@
 
 	<div>Le mot est en gras : <?= $myObj->bold(); ?></div>
 	<div>Le mot est en italic : <?= $myObj->italic(); ?></div>
+	<div>Le mot est souligné : <?= $myObj->underline(); ?></div>
 
 </body>
 </html>
